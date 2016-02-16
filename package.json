@@ -1,0 +1,33 @@
+{
+  "name": "tmpl-nodejs-express-es7",
+  "version": "1.0.0",
+  "description": "Nodejs + Express + ES7 template",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf ./build",
+    "build": "babel ./src -d ./build -s",
+    "start": "node ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itomg/tmpl-nodejs-express-es7.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "ES7"
+  ],
+  "author": "Jimmy Zhao <itomgit@gmail.com> (http://www.itomg.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itomg/tmpl-nodejs-express-es7/issues"
+  },
+  "homepage": "https://github.com/itomg/tmpl-nodejs-express-es7#readme",
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-polyfill": "^6.5.0",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-2": "^6.5.0",
+    "babel-register": "^6.5.2"
+  }
+}
